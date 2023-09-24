@@ -12,6 +12,9 @@ public class Player : MonoBehaviour
     private float increment;
     [SerializeField]
     private float xinput;
+    [SerializeField]
+    private int point;
+    public int Point { get { return point; } set {  point = value; } }
     // Start is called before the first frame update
     void Start()
     {
